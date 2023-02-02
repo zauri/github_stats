@@ -67,7 +67,7 @@ For more information on inaccuracies, see issue
 1. Create a personal access token (not the default GitHub Actions token) using
    the instructions
    [here](https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token).
-   Personal access token must have permissions: `read:user` and `repo`. Copy
+   Personal access token (not the fine-grained beta one!) must have permissions: `read:user` and `repo`. Copy
    the access token when it is generated – if you lose it, you will have to
    regenerate the token.
    - Some users are reporting that it can take a few minutes for the personal
