@@ -12,7 +12,7 @@ permissions:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
 
     steps:
     # Check out repository under $GITHUB_WORKSPACE, so the job can access it
@@ -22,7 +22,7 @@ jobs:
     - name: Set up Python 3.8
       uses: actions/setup-python@v4
       with:
-        python-version: '3.8.0'
+        python-version: '3.8'
         architecture: 'x64'
         cache: 'pip'
 
